@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{ 
+    .field{
+        @apply flex flex-col m-2
+    }
+    .form-input{
+        @apply w-[400px] h-9 rounded p-3 outline-none 
+    }
+    .label{
+        @apply font-semibold pl-1 mt-3
+    }
+    .fields{
+        @apply flex h-10 font-semibold ml-20
+    }
+    .readlbel{
+        @apply w-[15vw] 
+    }
+}
